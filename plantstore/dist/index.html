@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <script src="https://kit.fontawesome.com/26f09c3fad.js"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Catamaran&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/simplelightbox.min.css">
+  <title>ZiZi Store</title>
+</head>
+
+<body id="home">
+  <nav class="navbar">
+    <div class="container">
+      <h1 class="logo">Zizi</h1>
+      <ul class="nav">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!--Showcase -->
+  <section class="section-a">
+    <div class="container">
+      <div>
+        <h1>Welcome to Our Lovely Store</h1>
+        <p>We have a variety types of plants from common to rare. If you are new to the plant world, we love to help you along the way. Come check us out and see if there's a plant for you. Let us help you pair up that works with your environment and
+          schedule. Don't worry if you don't have a green thumb yet, we're here to help.</p>
+        <a href="#" class="btn">Read more</a>
+      </div>
+      <img src="img/storelayout.jpg" alt="">
+    </div>
+  </section>
+
+  <!--overlay section-->
+  <section class="section-b">
+    <div class="overlay">
+      <div class="section-b-inner">
+        <h3>Hone in on your plant vibe</h3>
+        <h2>From complex to simplicity, we got a plant for you</h2>
+        <p>We got what you need and want. Not sure where to go, not a problem. Our motto is always one plant at a time. If you feel adventerous, that's cool too! Need help making sure your plants are taken care of? We have classes to help you along
+          the way.</p>
+      </div>
+    </div>
+  </section>
+
+  <!--Gallery-->
+  <section class="section-c">
+    <div class="gallery">
+      <a href="img/booksnelephant.jpg" class="big"><img src="img/booksnelephant.jpg" alt=""></a>
+      <a href="img/hangingplants.jpg" class="big"><img src="img/hangingplants.jpg" alt=""></a>
+      <a href="img/cactus.jpg" class="big"><img src="img/cactus.jpg" alt=""></a>
+      <a href="img/soloteal.jpg" class="big"><img src="img/soloteal.jpg" alt=""></a>
+      <a href="img/triplets.jpg" class="big"><img src="img/triplets.jpg" alt=""></a>
+      <a href="img/waterplant.jpg" class="big"><img src="img/waterplant.jpg" alt=""></a>
+
+    </div>
+  </section>
+
+  <!--footer-->
+
+  <footer class="section-footer">
+    <div class="container">
+      <div>
+        <h2>ipssum lorem lorem ispsum</h2>
+        <a href="http://twitter.com"></a>
+        <i class="fab fa-twitter fa-2x"></i>
+        <a href="http://facebook.com"></a>
+        <i class="fab fa-facebook fa-2x"></i>
+        <a href="http://youtube.com"></a>
+        <i class="fab fa-youtube fa-2x"></i>
+      </div>
+
+      <div>
+        <h3>Company Info</h3>
+        <ul>
+          <li><a href="#">Our Plants</a></li>
+          <li><a href="#">About Us</a></li>
+          <li><a href="#">Privacy Policy</a></li>
+          <li><a href="#">Terms of Service</a></li>
+        </ul>
+      </div>
+
+      <div>
+        <h3>Blog Post</h3>
+        <ul>
+          <li><a href="#">lorem</a></li>
+          <li><a href="#">Ipsum</a></li>
+          <li><a href="#">Dolor</a></li>
+          <li><a href="#">Lorem Ipsum Dolor</a></li>
+        </ul>
+      </div>
+
+      <div>
+        <h3>Subscribe</h3>
+        <p>If you got question, please contact us</p>
+        <form name="email-form" method="post" data-netlify="true">
+          <div class="email-form">
+            <span class"form-control-wrap">
+              <input type="email" name="email" id="email" size="40" class="form-control" placeholder="Email" />
+            </span>
+            <button type="submit" class="form-control submit">
+              <i class="fas fa-chevron-right"></i>
+            </button>
+          </div>
+        </form>
+      </div>
+  </footer>
+
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+  <script src="js/simple-lightbox.min.js"></script>
+  <script>
+    $(function() {
+      // const $gallery = $('.gallery a')
+      var $gallery = new SimpleLightbox('.gallery a', { /* options */ })
+    });
+  </script>
+</body>
+
+</html>
